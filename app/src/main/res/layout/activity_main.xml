@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+
+
+    <LinearLayout
+        android:id="@+id/btn_quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:background="@drawable/button_bg"
+        android:paddingLeft="30dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="100px"
+            android:layout_height="match_parent"
+            android:src="@drawable/quiz"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mulai tes"
+            android:paddingRight="10dp"
+            android:textSize="20sp"
+            android:gravity="right"
+            android:textColor="@color/ms_material_blue_500"
+            android:paddingTop="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+    android:id="@+id/btn_history"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:background="@drawable/button_bg"
+    android:paddingLeft="30dp"
+    android:layout_marginBottom="10dp"
+    android:clickable="true">
+    <ImageView
+        android:layout_width="100px"
+        android:layout_height="match_parent"
+        android:src="@drawable/history"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Riwayat"
+        android:paddingRight="10dp"
+        android:textSize="20sp"
+        android:gravity="right"
+        android:textColor="@color/ms_material_blue_500"
+        android:paddingTop="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_saran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:background="@drawable/button_bg"
+        android:paddingLeft="30dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true">
+        <ImageView
+            android:layout_width="100px"
+            android:layout_height="match_parent"
+            android:src="@drawable/saran"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saran"
+            android:paddingRight="10dp"
+            android:textSize="20sp"
+            android:gravity="right"
+            android:textColor="@color/ms_material_blue_500"
+            android:paddingTop="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:background="@drawable/button_bg"
+        android:paddingLeft="30dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true">
+        <ImageView
+            android:layout_width="100px"
+            android:layout_height="match_parent"
+            android:src="@drawable/about"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tentang"
+            android:paddingRight="10dp"
+            android:textSize="20sp"
+            android:gravity="right"
+            android:textColor="@color/ms_material_blue_500"
+            android:paddingTop="10dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

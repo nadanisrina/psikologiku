@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".PilihSaranActivity">
+
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PILIH SARAN"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/btn_stres"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/button_style"
+
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:clickable="true">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saran untuk Stres"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/ms_white"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_kecemasan"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/button_style"
+
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:clickable="true">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saran untuk Kecemasan"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/ms_white"
+            />
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/btn_depresi"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:background="@drawable/button_bg_blue"-->
+        <!--android:paddingLeft="30dp"-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:clickable="true">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Saran untuk Depresi"-->
+            <!--android:paddingRight="10dp"-->
+            <!--android:textSize="20sp"-->
+            <!--android:gravity="right"-->
+            <!--android:textColor="@color/ms_white"-->
+            <!--android:paddingTop="10dp"/>-->
+    <!--</LinearLayout>-->
+</LinearLayout>
